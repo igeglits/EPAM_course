@@ -8,5 +8,6 @@ public class LearnEquality {
         System.out.println("a < b = " + (a < b) );
         System.out.println("b >= a = " + (b >= a) );
         System.out.println("b <= a = " + (b <= a) );
+        System.out.println(12345 + 5432l);
     }
 }
