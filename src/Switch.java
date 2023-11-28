@@ -1,6 +1,12 @@
 class Switch {
+    public static void main(String[] args) {
+       defineLevel("dfg");
+       defineLevel("guest");
+        System.out.println(defineLevel("guest"));
+    }
 
-    public int defineLevel(String role) {
+    private static int defineLevel(String role) {
+
         return switch (role) {
             case "guest" -> 0;
             case "client" -> 1;
