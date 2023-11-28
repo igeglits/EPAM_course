@@ -1,4 +1,5 @@
 class Switch {
+
     public int defineLevel(String role) {
         return switch (role) {
             case "guest" -> 0;
@@ -11,4 +12,6 @@ class Switch {
             }
         };
     }
+
+
 }
