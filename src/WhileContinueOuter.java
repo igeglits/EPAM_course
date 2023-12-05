@@ -1,4 +1,4 @@
-public class WhileContinueOuter {
+class WhileContinueOuter {
     public static void main(String[] args) {
         int i = 0;
         outer: while (i++ < 3) {
@@ -17,5 +17,10 @@ public class WhileContinueOuter {
             System.out.println("b = " + b);
             System.out.println("Завершение итерации");
         }
+        int num = 10;
+        while  (++num > 20) {
+            num++;
+        }
+        System.out.println(num);
     }
 }
